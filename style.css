@@ -46,12 +46,19 @@ body {
     
     font-family: serif;
     font-weight: 400;
-    font-size:2ch;
-    margin: 20px auto;
-    width: 80%;
+    
+    
+    
     text-align: center;
     background-color: #739072;
-    border-radius: 10px;
+    
+    
+    padding: 30px;
+    line-height: 1.5;
+    border-radius: 20px;
+    width: 90%;
+    margin: 20px auto;
+    font-size: 1.5em;
     
   
    
@@ -90,6 +97,12 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     gap: 1rem;
+    padding: 30px;
+    line-height: 1.5;
+    border-radius: 20px;
+    width: 90%;
+    margin: 20px auto;
+    font-size: 1.5em;
     
 }
 
@@ -103,6 +116,12 @@ body {
     box-shadow: 0 0 10px rgba(90, 36, 36, 0.1);
     text-align: center;
     gap: 1rem;
+    padding: 30px;
+    line-height: 1.5;
+    border-radius: 20px;
+    width: 90%;
+    margin: 20px auto;
+    font-size: 1.5em;
 
 }
 
@@ -110,13 +129,19 @@ body {
 .container-hero-converter{
     margin: 20px auto;
     
-    width: 80%;
+    
     background-color: #86A789;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     gap: 1rem;
+    padding: 30px;
+    line-height: 1.5;
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px auto;
+    font-size: 1.5em;
 }
 
 #converter{

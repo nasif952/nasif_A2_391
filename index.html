@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 02 -  CSE391</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="fetchQuote(quotes, author)">
+    <div class="navbar">
+    <h6>Nasif Ahmed Nafi</h6>
+    <ul>
+        <li><a href="#quotes">Quotes</a></li>
+        <li><a href="#converter">Converter</a></li>
+        <li><a href="#calculator">Calculator</a></li>
+        <li><a href="#magic-section">Magic</a></li>
+    </ul>
+    </div>
+
+    <div class="container-quote-box">
+        <div id="buttonquote">
+          <div id="ititle">
+            <header>QUOTE</header>
+            
+        
+          
+        </div>
+        
+
+
+        <div id="quotes">
+            <div id="text">"Sample Quote"</div>
+            <div id="author">Sample Author</div>
+        </div>
+        <div id="buttons">
+            <button onclick="button1()" type="button" id="button1">Blue</button>
+            <button onclick="button2()" type="button" id="button3">Green</button>
+            <button onclick="button3()" type=" button" id="button2">Red</button>
+            <button onclick="button4()" type="button" id="button4">Yellow</button>
+        </div>
+    </div>
+    </div>
+
+    <div class="container-hero-converter" id="converter">
+        
+        Convert : <input id="converter_input" type="text" placeholder="enter numbers" />
+            <select id="converter_unit">
+				<option value="kgtopounds">kg to lb</option>
+				<option value="poundstokg">lb to kg</option>
+			</select>
+            <button onclick="convert();" type="button" id="converter-button">Go</button>
+            <span id="converter-result"><!-- answer to be printed here --></span> 
+            
+        </div>
+
+
+
+        <div class="container-calculator" id="calculator">
+            <div id="ititle"> Min, Max, Average,Sum and Reverse</div>
+           
+            
+
+            <!--  -->
+               
+            <input
+                type="text"
+                name="nvlaue" 
+                id="calulcator_input"
+                placeholder="enter numbers"
+                onkeyup="calculator()"
+          
+            <p>Max : <span id="max"><!-- answer to be printed here --></span></p>
+      
+            <p>Min : <span id="min"><!-- answer to be printed here --></span></p>
+      
+            <p>Sum : <span id="sum"><!-- answer to be printed here --></span></p>
+      
+            <p>Reverse : <span id="reverse"><!-- answer to be printed here --></span></p>
+      
+            <p>Average : <span id="avg"><!-- answer to be printed here --></span></p>
+            </div> <!--  -->
+          </div>
+  
+          <div class="container-magic" id="magic-section">
+            <div class="magic">
+              <header>Magic</header>
+              <div class="content">
+                <div class="quote-area">
+                  <textarea id="magic_input" type="text" rows="15" cols="54"></textarea>
+                  <div id="magic-buttons">
+                      <button onclick="clearAll()" type="button" id="clear">Clear it</button>
+                      <button onclick="capitalize()" type="button" id="caps" value="OFF">Capitalize</button>
+                      <button onclick="sortLines()" type="button" id="sort">Sort</button>
+                      <button onclick="reverseLines()" type="button" id="reverse-magic">Reverse</button>
+                      <button onclick="stripBlank()" type="button" id="strip">Strip Blank</button>
+                      <button onclick="addLineNumbers()" type="button" id="addNum">Add Numbers</button>
+                      <button onclick="shuffle()" type="button" id="shuffle">Shuffle</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 6em;
+    align-items: center;
+    background-color: #739072;
+    top: 0;
+    margin-bottom:2cm;
+    height: 60px;
+    width: 100vw;
+    /* position: sticky;  even if there is a scroll the nav wont disappear */
+    display: flex;
+  justify-content: space-between;
+ 
+ 
+
+  
+  }
+
+
+  /* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* --- */
+    /* --- */
+    
+}
+
+/* Global styles */
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #D2E3C8;
+    /* color: #333; */
+    
+}
+
+.container-quote-box {
+    
+    font-family: serif;
+    font-weight: 400;
+    font-size:2ch;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    background-color: #739072;
+    border-radius: 10px;
+    
+  
+   
+    
+    
+}
+
+
+#ititle{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  
+}
+
+#ititle.p :hover{
+    opacity:0.5;
+}
+#quotes{
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.container-magic {
+    
+    margin: 20px auto;
+    
+    width: 80%;
+    background-color: #86A789;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    gap: 1rem;
+    
+}
+
+.container-calculator{
+    margin: 20px auto;
+    
+    width: 80%;
+    background-color: #86A789;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(90, 36, 36, 0.1);
+    text-align: center;
+    gap: 1rem;
+
+}
+
+
+.container-hero-converter{
+    margin: 20px auto;
+    
+    width: 80%;
+    background-color: #86A789;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    gap: 1rem;
+}
+
+#converter{
+    text-align: center;
+}
+
+
+.navbar h6 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: #ccc;
+}
+
+/* Buttons */
+button {
+    background-color: #B4B4B8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius:10dvh;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #6C5F5B;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Magic section */
+.magic {
+    text-align: center;
+}
+
+.magic header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.magic .content {
+    display: flex;
+    justify-content: center;
+}
+
+.magic .content .quote-area {
+    width: 70%;
+}
+
+.magic #magic-buttons button {
+    margin: 5px;
+}
